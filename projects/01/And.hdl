@@ -15,4 +15,6 @@ CHIP And {
 
     PARTS:
     // Put your code here:
+    Nand(a=a, b=b, out=c);  //use Nand and Not can make And
+    Not(in=c, out=out);
 }
